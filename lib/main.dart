@@ -25,7 +25,18 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      appBar: AppBar(
+        title: Text('App Bar임 ㅋ'),
+      ),
+      body: Center(
+        child: Column(
+          children: const [
+            Text('첫번째 col'),
+            Text('두번째 col'),
+            Text('세번째 col'),
+          ],
+        ),
+      ),
     );
   }
 }
